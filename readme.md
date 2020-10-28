@@ -66,7 +66,7 @@ Classe onde está localizado a chamada para obter o Bearer Token.
 * getPin(): array
 * getToken(): array
 
-#
+
 ####Config.php
 Arquivo contem as configurações da conta do imgur.
 https://api.imgur.com/oauth2/addclient
