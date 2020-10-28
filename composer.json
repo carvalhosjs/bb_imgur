@@ -1,0 +1,28 @@
+{
+  "name": "carvalho/bb_imgur",
+  "description": "Gerenciamento de IMGUR Upload / Aqruivos",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Carlos Mateus Carvalho",
+      "email": "carvalho.ti.adm@gmail.com",
+      "homepage": "https://carvalhosjs.github.io/",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Support/Helpers.php",
+      "source/Support/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1"
+  }
+}
